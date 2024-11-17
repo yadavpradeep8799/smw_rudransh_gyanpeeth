@@ -1,0 +1,39 @@
+/* Navbar.css */
+.custom-navbar {
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1020; /* Ensure it's above other elements */
+  background-color: #ffffff !important; /* Ensure consistent background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333 !important; /* Dark text for brand */
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Space between logo and brand name */
+}
+
+.nav-link {
+  color: #333 !important;
+  padding: 10px 15px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #e2e6ea; /* Hover background color */
+  color: #007bff !important; /* Hover text color */
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  border-color: #333; /* Toggler border color */
+}
+
+.navbar-toggler-icon {
+  background-color: #333; /* Toggler icon color */
+}
